@@ -1,0 +1,13 @@
+{
+  "name": "Solar",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "fart": {
+        "$path": "src"
+      }
+    }
+  }
+}
