@@ -1,0 +1,4 @@
+{
+    "Name": "PlayerRegistered",
+    "ClassName": "BindableEvent"
+}
