@@ -486,7 +486,7 @@ function API:ExecuteCommand(player: Player,command: string,arguments: {any})
 
 	if RegisteredPlayer["PermissionLevel"] >= commandTable.PermissionLevel then
 		local hasErrored = false
-		if (commandTable.Options.ParseArguments or commandTable.Options.ParseArguments == nil) and arguments and #arguments > 0 then
+		if (commandTable.ParseArguments or commandTable.ParseArguments == nil) and arguments and #arguments > 0 then
 			for argn,arg in ipairs(arguments) do
 
 				if commandTable.Arguments[argn] and commandTable.Arguments[argn].Required == true then
